@@ -1,0 +1,66 @@
+<!-- //
+//  index
+//
+//  Created by Kevin Lee on 6/13/2011
+//  Copyright (c)  Q Technology Company. All rights reserved.
+// -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>jTodo</title>
+        <link rel="stylesheet" href="css/960/reset.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="css/960/960_12_col.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="css/960/text.css" type="text/css" media="screen" title="no title" charset="utf-8">
+                
+        <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+        <script src="js/lib/jquery-1.6.1.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/lib/underscore-min.js" type="text/javascript" charset="utf-8"></script>     
+        <script src="js/lib/Lawnchair.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/lib/adapters/dom.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="js/src/repository.js" type="text/javascript" charset="utf-8"></script>
+           
+        <script src="js/src/todo.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- <script type="text/javascript" charset="utf-8">
+          var db = new Lawnchair('todo', function () {
+            console.log("Lawnchair DB initialized");
+          });
+        </script> -->
+        <script src="js/src/todoController.js" type="text/javascript" charset="utf-8"></script>
+        
+</head>
+<body>
+  <div id="wrapper">  
+
+    <div id="header" class="container_12 ">
+      <div class="grid_12">
+        <h1>jTodo</h1>
+      </div>
+    </div> <!-- end header -->
+
+    <div id="content" class="container_12 ">
+      <div class="grid_12">
+        <p class="tag_line">A client side Todo Application</p>
+        <div id="todos">
+          <form>
+            <label for="new_todo">New Todo:</label><input type="test" name="new_todo" value="" id="new_todo"><input type="submit" id="add_button" value="add">
+          </form>
+          <ul id="todo_items">
+          </ul>
+        </div>
+      </div>  
+    </div> <!-- end content -->
+    <div id="footer" class="container_12">
+      <div class="prefix_9 grid_3">
+        <p>          
+          <script src="http://www.codemav.com/widget/kevinwlee" type="text/javascript"></script>
+        </p>
+      </div>
+    </div> <!-- end footer -->
+  </div> <!-- end wrapper -->
+</body>
+</html>

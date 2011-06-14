@@ -1,0 +1,30 @@
+#wrapper {
+	margin:auto;
+	height:100%;
+		background-color:#EBEBEB;
+}
+
+h1 {
+	font-size:2.1em;
+}
+
+#header {
+	font-size: 2em;
+	background-color:#3366CC;
+	height:80px;
+	color:#FFF;
+}
+
+#content {
+	font-size: 1.8em;
+	background-color:#FFF;
+}
+
+#footer {
+	background-color:#3366CC;
+	height:100px;
+}
+
+.completed {
+	text-decoration:line-through;
+}
